@@ -1,4 +1,30 @@
 
 .header{
-    color: lightblue;
+   padding: 46px 0 56px;
+
+}
+.header_row{
+   display: flex;
+   column-gap: 30px;
+   align-items: center;
+   justify-content: space-between;
+}
+.header_logo {
+   display: flex;
+   align-items: center;
+   column-gap: 13px;
+
+}
+.header_logo span{
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 1.5;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+}
+
+.header_nav {
+
+
 }
