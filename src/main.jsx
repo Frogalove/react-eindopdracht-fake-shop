@@ -4,9 +4,14 @@ import App from './App.jsx'
 import './index.css'
 import '././styles/reset.css';
 import '././styles/common.css';
+import {BrowserRouter as Router} from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
+    <Router>
+
     <App />
-  </React.StrictMode>,
+
+    </Router>
+  // </React.StrictMode>,
 )

@@ -1,6 +1,6 @@
 
 import './Promo.css'
-import promoImg from'/src/assets/img/header-img.jpg';
+import promoImg from '/src/assets/img/header-img.jpg';
 const Promo = () => {
  return (<section className='promo'>
       <div className='container'>
