@@ -13,10 +13,8 @@ import Lifestyle from "./pages/lifestile/Lifestyle.jsx";
 import Login from "./pages/login/Login.jsx";
 import Cart from "./pages/cart/Cart.jsx";
 import Singup from "./pages/singup/Singup.jsx";
+import Navbar from "./components/navigation/Navbar.jsx";
 
-function Navbar() {
-  return null;
-}
 
 function App() {
 
@@ -34,7 +32,6 @@ function App() {
         <Route path='/Login' element= {<Login/>}/>
         <Route path='/Cart' element= {<Cart/>}/>
         <Route path='/Singup' element= {<Singup/>}/>
-        
       </Routes>
       <Footer/>
 

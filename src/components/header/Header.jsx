@@ -10,9 +10,8 @@ function Header () {
         <span>Fashion</span>
 
       </div>
-
-     <nav className="header_nav">
-   <ul>
+      <nav className="header_nav">
+        <ul>
 
           <li><a href='#'>HOME</a></li>
           <li><a href='#'>FASHION </a></li>
@@ -20,11 +19,11 @@ function Header () {
           <li><a href='#'>LIFESTYLE</a></li>
           <li><a href='#' className="header_nav-btn">SING UP</a></li>
         </ul>
-       </nav>
+      </nav>
 
 
-   </div>
-   </div>
+    </div>
+  </div>
 
 
   </header>;
